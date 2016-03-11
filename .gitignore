@@ -1,0 +1,32 @@
+package abc;
+
+import javax.swing.JOptionPane;
+
+public class Rocha{
+  public Static void mani (String[] args){
+  String l = JOptionPane.showInputDialog("Tamanho Linha:");
+  int linha = Integer.parseInt(l);
+  int[] vet = new int[linha];
+  int cont;
+  int op = 1;
+  
+  String aux2 = JOptionPane.showInputDialog("1 Para inserir valor; \n
+                                           + 2 Para Listar valores; \n 
+                                           + 3 Para Sair");
+  if (aux2 == null){
+    aux2 = "999999"
+  }
+  if ("".)
+  op = Integer.parseInt(aux2);
+  while (op != 0){
+   if(op == 1){
+   
+   }else if (op == 2){
+   
+  
+  
+  
+    }
+  }
+}
+
